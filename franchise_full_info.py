@@ -1,4 +1,5 @@
 from selenium import webdriver
+#셀레니움 버전 3.141.0 이용
 from bs4 import BeautifulSoup
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
