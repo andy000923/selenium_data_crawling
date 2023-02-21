@@ -19,7 +19,7 @@ ssl._create_default_https_context = ssl._create_unverified_context
 def job():
     global recentSubject
     #슬랙
-    token_slack = "xoxb-641640460194-4482417822837-R3woV88cql8gPnj9nFhpETp2"
+    token_slack = "xoxb-641640460194-4482417822837-u5MuguFcWTTW65micLw7KyJa"
     client = slack_sdk.WebClient(token=token_slack)
 
     driver = webdriver.Chrome('/Users/yunkanghyun/Downloads/chromedriver')
